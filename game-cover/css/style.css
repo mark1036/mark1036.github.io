@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
+@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+body {
+  background-image: url('https://cdnb3.artstation.com/p/assets/images/images/000/015/139/large/FUTURISTIC_SOLDIER_View.jpg?1400273476');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: darkgreen;
+  font-family: ruslan display;
+}
+
+.pressPlay:hover {
+  background: yellow;
+  button-align: center;
+}
+
+.pressPlay {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-size: 60px;
+  border: 5px dotted #ff4322;
+  background: green;
+}
+
+p {
+  text-align: center;
+  font-family: 'Press Start 2P';
+  color: #ffff00;
+}
