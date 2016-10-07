@@ -1,0 +1,190 @@
+/*Add your Google Font @import link below here*/
+
+@import 'https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope';
+body {
+  background-image: url('http://orig05.deviantart.net/e25b/f/2014/308/3/c/pokemon_x_and_y_battle_background_16_by_phoenixoflight92-d8594wx.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Orbitron;
+  cursor: url(http://pokemon3d.net/wiki/images/8/87/Pok%C3%A9_Ball.png), auto;
+}
+
+
+/*Styling for all the arrows. Absolute positioning allows you to move the position of the arrows.*/
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+}
+
+.row {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+
+/*Div that surrounds the circle div. Inline-block means the divs can sit side-by-side. Margin: 0 auto centers anything that has a defined width.*/
+
+.inner {
+  width: 20%;
+  height: 150px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.inner2 {
+  width:20%;
+  height: 150px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.inner3 {
+  width:20%;
+  height: 150px;
+  display: inline-block;
+  margin: 0 auto;
+}
+/*Circle div that contains the pic. Border-radius controls how round you want the div to be. Overflow:hidden means the image you put inside the div will go over the edges of the container div*/
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #404040;
+}
+
+.circle2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #404040;
+  text-align:center;
+}
+
+.circle3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #404040;
+  text-align:center;
+}
+
+
+/*home button on top right of Home screen*/
+
+#homeButton {
+  width: 10%;
+  left: 70%;
+}
+
+/*styling for right button in Home */
+#right-button-main {
+  width: 10%;
+  top: 50%;
+  left: 90%;
+  right: 0;
+}
+
+
+/*left blue button of Home*/
+
+#top-button-left {
+  width: 10%;
+  top: 50%;
+  left: 0;
+}
+
+
+/*bottom left home button when you enter right room*/
+
+#left-home-right {
+  width: 10%;
+  top: 50%;
+}
+
+
+/*Pokemon image sizes*/
+.pokemon{
+  width: 100%;
+  position: relative;
+  top: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #ffff66;
+  font-family: Annie Use Your Telescope;
+}
+
+#diglett {
+  animation-duration: 0.20s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+#ash {
+  animation-duration: 1s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}#eevee {
+  animation-duration: 0.01s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}#magikarp {
+  animation-duration: 0.5s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+#arceus{animation-duration: 0.0001s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+#dunsparce{animation-duration: 0.001s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}#rayquaza{animation-duration: 0.1s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}#mewtwo{animation-duration: 0.00000000001s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+
+#dinovaldo{animation-duration: 1s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+
+#lapras{animation-duration: 0.5s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+
+#mew{animation-duration: 1.5s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+
+#dinovaldo{animation-duration: 3s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+
+#ditto{animation-duration: 2.5s;
+  animation-name: popup;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes popup {
+  100% {
+    top: 20%;
+  }
+}
+
